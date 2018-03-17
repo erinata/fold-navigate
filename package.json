@@ -1,0 +1,17 @@
+{
+  "name": "fold-navigate",
+  "main": "./lib/fold-navigate",
+  "version": "0.0.1",
+  "description": "Navigate to the beginning and end of code blocks.",
+  "keywords": [
+    "fold",
+    "navigate",
+    "codeblock"
+  ],
+  "repository": "https://github.com/erinata/fold-navigate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
