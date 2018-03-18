@@ -5,8 +5,7 @@
   "description": "Navigate to the beginning and end of code blocks.",
   "keywords": [
     "fold",
-    "navigate",
-    "codeblock"
+    "navigate"
   ],
   "repository": "https://github.com/erinata/fold-navigate",
   "license": "MIT",

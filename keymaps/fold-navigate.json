@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-cmd-i": "fold-navigate:fold-navigate-test"
+    "ctrl-alt-m": "fold-navigate:fold-navigate-match"
   }
 }
