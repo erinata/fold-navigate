@@ -7,6 +7,9 @@
     "fold",
     "navigate"
   ],
+  "activationCommands": {
+    "atom-workspace": "fold-navigate:fold-navigate-match"
+  },
   "repository": "https://github.com/erinata/fold-navigate",
   "license": "MIT",
   "engines": {
