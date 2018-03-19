@@ -1,6 +1,6 @@
 # Fold Navigate
 
-Navigate to the beginning and end of blocks of code according to the fold(or indentation) levels.
+Navigate to the beginning and the end of blocks of code according to the fold and indentation levels.
 
 ## Usage
 
@@ -14,11 +14,11 @@ This behaviour mimics the behaviour of the package bracket-match. In many case, 
 
 - Somehow there a a glitch when the block ends at the end of the document.
 
-- The package use both the fold and indentation to identify the fold range. For languages which doesn't indent according to the block (like markdown), this packakge won't work even after adding fold markers.
+- The package use both the fold and indentation to identify the fold range. For languages which doesn't indent according to the block (like markdown), this packakge won't work even when fold markers is added by other packages.
 
 - For lanaguages where the end tag is not included in the fold range (like latex), this package will be confused when the foldNavMatch is activated at the end tag.
 
-- I don't know how to identify the fold range (I thought there should be something in the API). Therefore now the package is using a very stupid method, which is to actually fold the code and move the cursor and see where the cursor goes. There got to be a cleaner method with better performance.
+- I don't know how to API for identifing the fold range. Therefore the package is using a very stupid method, which is to actually fold the code and move the cursor around and see where the cursor goes. There got to be a cleaner method with better performance.
 
 - There should be several sensible options
   - to select whole line instead of just moving to the beginning of the line

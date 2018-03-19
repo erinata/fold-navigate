@@ -2,7 +2,7 @@
   "name": "fold-navigate",
   "main": "./lib/fold-navigate",
   "version": "0.0.1",
-  "description": "Navigate to the beginning and end of code blocks.",
+  "description": "Navigate to the beginning and the end of blocks of code according to the fold and indentation levels.",
   "keywords": [
     "fold",
     "navigate"
